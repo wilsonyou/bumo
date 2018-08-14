@@ -11,9 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 4
    
-   develop
    ctp
-   manual
 
 Indices and tables
 ==================
