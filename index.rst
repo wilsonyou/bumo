@@ -12,7 +12,7 @@ Contents:
    :maxdepth: 2
    
    README
-   manual
+   docs/manual
    
 
 Indices and tables
