@@ -11,6 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 4
    
+   docs/generating-private-key
+   
    
 
 Indices and tables
