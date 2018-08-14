@@ -13,7 +13,7 @@ Contents:
    
    
    docs/manual
-   generating-private-key
+   docs/generating-private-key
    
 
 Indices and tables
