@@ -11,7 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 4
    
-   ctp
+   
 
 Indices and tables
 ==================
