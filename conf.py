@@ -365,10 +365,9 @@ intersphinx_mapping = {'http://docs.python.org/': None}
 
 # for markdown files
 from recommonmark.parser import CommonMarkParser
-# The suffix of source filenames.
-source_suffix=['.rst', '.md']
 
 source_parsers = {
        '.md': CommonMarkParser,
 }
-
+# The suffix of source filenames.
+source_suffix=['.rst', '.md']
