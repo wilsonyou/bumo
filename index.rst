@@ -14,6 +14,7 @@ Contents:
    
    
    docs/keypair手册
+   docs/keypairone
 
    
 
