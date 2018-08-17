@@ -263,7 +263,7 @@ Transaction\_blob是:
 ------------
 
 交易的执行有两种接口调用方式：`调用接口生成transaction\_blob`_
-和`自己生成 transaction_blob`_  。
+和`自己生成 transaction_blob`_。
 
 调用接口生成transaction\_blob
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
