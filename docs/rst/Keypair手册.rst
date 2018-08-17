@@ -262,10 +262,9 @@ Transaction\_blob是:
 交易提交方式
 ------------
 
-交易的执行有两种接口调用方式：`调用接口生成`_
-和`自己生成`_。
+交易的执行有两种接口调用方式：`调用接口生成`_和`自己生成`_。
 
-调用接口生成transaction\_blob
+调用接口生成
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     **注意**\ ：由于transaction\ *blob很可能被截取和篡改，因此不建议用这种方式生成transaction*\ blob。
@@ -353,7 +352,7 @@ https://github.com/bumoproject/bumo/blob/master/docs/develop.md
     "success_count": 1
     }
 
-自己生成transaction\_blob
+自己生成
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 自己生成transaction\_blob、签名，并提交交易，具体操作包括以下步骤：
