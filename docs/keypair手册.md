@@ -218,7 +218,7 @@ Transaction_blob是:
 a46ee590a84abdeb8cc38ade1ae8e8a2c71bb69bdc4cd7dc0de1b74b37e2cbd1696229687f80dff4276b1a3dd3f95a9bc1d569943b337fe170317430f36d6401
 ```
 ## 交易提交方式
-交易的执行有两种接口调用方式：[调用接口生成transaction_blob](# 调用接口生成transaction_blob) 和[自己生成 transaction_blob](# 自己生成transaction_blob)。
+交易的执行有两种接口调用方式：[调用接口生成transaction_blob](#调用接口生成transaction_blob) 和[自己生成 transaction_blob](#自己生成transaction_blob)。
 
 ### 调用接口生成transaction_blob
 >**注意**：由于transaction_blob很可能被截取和篡改，因此不建议用这种方式生成transaction_blob。
@@ -316,7 +316,7 @@ HTTP GET host:port/getAccount?address=账户地址
 ```
 HTTP GET host:port/getAccount?address=账户地址
 ```
-2.填充protocol buffer的交易对象Transaction，并进行序列化操作，从而得到transaction_blob。具体的交易数据结构详情请看[ProtoBuf数据结构](# protobuf数据结构)。
+2.填充protocol buffer的交易对象Transaction，并进行序列化操作，从而得到transaction_blob。具体的交易数据结构详情请看[ProtoBuf数据结构](#protobuf数据结构)。
 
 3.签名交易，并填充交易数据。根据私钥生成公钥，并用私钥对transaction_blob签名，然后填充提交交易的json数据，格式如下：
 
