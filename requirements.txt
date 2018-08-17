@@ -1,1 +1,11 @@
 sphinx_markdown_tables
+panflute
+pandocfilters
+pandoc-latex-admonition
+pandoc-latex-environment
+pandoc-latex-barcode
+pandoc-latex-levelup
+pandoc-dalibo-guidelines
+pypdf2
+pandoc-minted
+pygments
