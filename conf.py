@@ -228,8 +228,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'bubi.tex', 'bubi Documentation',
-   'wilson', 'manual'),
+    (master_doc, 'scrapy-cookbook.tex', u'scrapy-cookbook Documentation',
+     u'Xiong Neng', 'howto'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
