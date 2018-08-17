@@ -42,7 +42,6 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode', 
     'sphinx_markdown_tables',
-    
    
 ]
 #'sphinx_markdown_tables',
