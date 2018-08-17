@@ -1,12 +1,10 @@
 # Keypair手册
 
 ## 概述
-<span id = "_1"></span>
 
 本文档详细介绍了Keypair（公、私钥对）的生成过程以及在此基础上如何生成地址（address）并对交易签名，介绍了执行交易调用的两种接口方式以及相关流程，提供了多种ProtoBuf数据结构参考信息，最后以示例的方式详细介绍了两种交易提交方式，即调用接口生成transaction_blob和自己生成transaction_blob。
 
 ## 术语
-<span id = "_2"></span>
 
 本章节对该文档中使用到的术语进行了详细说明。
 
@@ -220,7 +218,7 @@ Transaction_blob是:
 a46ee590a84abdeb8cc38ade1ae8e8a2c71bb69bdc4cd7dc0de1b74b37e2cbd1696229687f80dff4276b1a3dd3f95a9bc1d569943b337fe170317430f36d6401
 ```
 ## 交易提交方式
-交易的执行有两种接口调用方式：[调用接口生成transaction_blob](#调用接口生成transaction_blob) 和[自己生成 transaction_blob](#自己生成transaction_blob)。
+交易的执行有两种接口调用方式：[调用接口生成transaction_blob](# 调用接口生成transaction_blob) 和[自己生成 transaction_blob](# 自己生成transaction_blob)。
 
 ### 调用接口生成transaction_blob
 >**注意**：由于transaction_blob很可能被截取和篡改，因此不建议用这种方式生成transaction_blob。
@@ -318,7 +316,7 @@ HTTP GET host:port/getAccount?address=账户地址
 ```
 HTTP GET host:port/getAccount?address=账户地址
 ```
-2.填充protocol buffer的交易对象Transaction，并进行序列化操作，从而得到transaction_blob。具体的交易数据结构详情请看[ProtoBuf数据结构](#ProtoBuf数据结构)。
+2.填充protocol buffer的交易对象Transaction，并进行序列化操作，从而得到transaction_blob。具体的交易数据结构详情请看[ProtoBuf数据结构](# protobuf数据结构)。
 
 3.签名交易，并填充交易数据。根据私钥生成公钥，并用私钥对transaction_blob签名，然后填充提交交易的json数据，格式如下：
 
