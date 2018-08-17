@@ -14,6 +14,7 @@ Contents:
    
    
    docs/rst/Keypair手册
+   docs/Keypair手册
 
    
 
