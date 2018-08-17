@@ -1,12 +1,12 @@
 # Keypair手册
 
 ## 概述
-<span id = "概述"></span>
+<span id = "_1"></span>
 
 本文档详细介绍了Keypair（公、私钥对）的生成过程以及在此基础上如何生成地址（address）并对交易签名，介绍了执行交易调用的两种接口方式以及相关流程，提供了多种ProtoBuf数据结构参考信息，最后以示例的方式详细介绍了两种交易提交方式，即调用接口生成transaction_blob和自己生成transaction_blob。
 
 ## 术语
-
+<span id = "_2"></span>
 
 本章节对该文档中使用到的术语进行了详细说明。
 
@@ -47,6 +47,7 @@ Raw Private Key 是指通过随机算法得到的字节数组，该字节数组�
 Raw Public Key 是指通过ED25519算法对 raw private key 进行处理生成的字节数组，该字节数组是生成公钥的前提条件。
 
 ## 原理图
+<span id = "_3"></span>
 下图说明了私钥、公钥和地址的生成原理。
 ![](/assets/schematic.png)
 
