@@ -13,7 +13,7 @@ Contents:
    :maxdepth: 4
    
    
-   docs/keypair手册
+   docs/keypair手册.rst
 
    
 
