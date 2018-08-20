@@ -220,7 +220,7 @@ a46ee590a84abdeb8cc38ade1ae8e8a2c71bb69bdc4cd7dc0de1b74b37e2cbd1696229687f80dff4
 ## 交易提交方式
 交易的执行有两种接口调用方式：[调用接口生成transaction_blob](#id20) 和[自己生成 transaction_blob](#id21)。
 
-<span id="#id20"></span>
+<span id="id20"></span>
 ### 调用接口生成transaction_blob
 >**注意**：由于transaction_blob很可能被截取和篡改，因此不建议用这种方式生成transaction_blob。
 
@@ -309,7 +309,7 @@ HTTP GET host:port/getAccount?address=账户地址
 }
 ```
 
-<span id="#id21"></span>
+<span id="id21"></span>
 ### 自己生成transaction_blob
 自己生成transaction_blob、签名，并提交交易，具体操作包括以下步骤：
 
