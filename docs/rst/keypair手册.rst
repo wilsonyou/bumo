@@ -265,7 +265,6 @@ Transaction\_blob是:
 交易的执行有两种接口调用方式：\ `调用接口生成transaction\_blob <#id10>`__
 和\ `自己生成 transaction\_blob <#id12>`__\ 。
 
-\ .. _header-n209: \
 调用接口生成transaction\_blob
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -353,6 +352,7 @@ https://github.com/bumoproject/bumo/blob/master/docs/develop.md
     ],
     "success_count": 1
     }
+
 
 自己生成transaction\_blob
 ~~~~~~~~~~~~~~~~~~~~~~~~~
