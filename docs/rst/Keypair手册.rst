@@ -262,7 +262,7 @@ Transaction\_blob是:
 交易提交方式
 ------------
 
-交易的执行有两种接口调用方式：`ref:`调用接口生成`和`ref:`自己生成`。
+交易的执行有两种接口调用方式：`调用接口生成`和`自己生成`。
 
 调用接口生成
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -364,7 +364,7 @@ https://github.com/bumoproject/bumo/blob/master/docs/develop.md
     HTTP GET host:port/getAccount?address=账户地址
 
 2.填充protocol
-buffer的交易对象Transaction，并进行序列化操作，从而得到transaction\_blob。具体的交易数据结构详情请看`ref:`ProtoBuf数据结构`。
+buffer的交易对象Transaction，并进行序列化操作，从而得到transaction\_blob。具体的交易数据结构详情请看`ProtoBuf数据结构`。
 
 3.签名交易，并填充交易数据。根据私钥生成公钥，并用私钥对transaction\_blob签名，然后填充提交交易的json数据，格式如下：
 
