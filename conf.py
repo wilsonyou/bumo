@@ -363,4 +363,11 @@ epub_exclude_files = ['search.html']
 intersphinx_mapping = {'http://docs.python.org/': None}
 
 # for markdown files
+
+import recommonmark
+from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
+ source_parsers = {
+    '.md': CommonMarkParser
+}
 source_suffix = ['.rst', '.md']
