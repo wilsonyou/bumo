@@ -705,9 +705,11 @@ Transaction\_blob是:
 交易提交方式
 ------------
 
-交易的执行有两种接口调用方式：:ref:`调用接口生成`和:ref:`自己生成`
+交易的执行有两种接口调用方式：:ref:`调用接口生成<generatebyinterface>`和:ref:`自己生成<generateitsown>`
 
-.. 调用接口生成
+.. _generatebyinterface:
+调用接口生成:
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     **注意**\ ：由于transaction\ *blob很可能被截取和篡改，因此不建议用这种方式生成transaction*\ blob。
@@ -795,7 +797,8 @@ https://github.com/bumoproject/bumo/blob/master/docs/develop.md
     "success_count": 1
     }
 
-.. 自己生成
+.. _generateitsown:
+自己生成
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 自己生成transaction\_blob、签名，并提交交易，具体操作包括以下步骤：
@@ -807,7 +810,7 @@ https://github.com/bumoproject/bumo/blob/master/docs/develop.md
     HTTP GET host:port/getAccount?address=账户地址
 
 2.填充protocol
-buffer的交易对象Transaction，并进行序列化操作，从而得到transaction\_blob。具体的交易数据结构详情请看:ref:`ProtoBuf数据结构`。
+buffer的交易对象Transaction，并进行序列化操作，从而得到transaction\_blob。具体的交易数据结构详情请看:ref:`ProtoBuf数据结构<protobuf>`。
 
 3.签名交易，并填充交易数据。根据私钥生成公钥，并用私钥对transaction\_blob签名，然后填充提交交易的json数据，格式如下：
 
@@ -843,7 +846,8 @@ buffer的交易对象Transaction，并进行序列化操作，从而得到transa
     "success_count": 1
     }
 
-.. ProtoBuf数据结构
+.. _protobuf:
+ProtoBuf数据结构
 ----------------
 
 Protocol Buffers（ProtoBuf）
