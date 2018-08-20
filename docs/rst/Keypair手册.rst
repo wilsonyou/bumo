@@ -263,10 +263,9 @@ Transaction\_blob是:
 交易提交方式
 ------------
 
-交易的执行有两种接口调用方式：:ref:`调用接口生成 <generatebyinterface>`和
+交易的执行有两种接口调用方式：`调用接口生成 <#generatebyinterface>`__和`自己生成 <#generateitsown>`__
 
 .. _generatebyinterface:
-
 调用接口生成:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
