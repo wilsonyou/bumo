@@ -263,9 +263,9 @@ Transaction\_blob是:
 交易提交方式
 ------------
 
-交易的执行有两种接口调用方式：`调用接口生成 <#generatebyinterface>`__和 `自己生成 <#generateitsown>`__
+交易的执行有两种接口调用方式：调用接口生成_和自己生成_
 
-.. _generatebyinterface:
+.. _调用接口生成:
 调用接口生成:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -354,7 +354,7 @@ https://github.com/bumoproject/bumo/blob/master/docs/develop.md
     "success_count": 1
     }
 
-.. _generateitsown:
+.. _自己生成:
 自己生成
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
