@@ -707,7 +707,7 @@ Transaction\_blob是:
 
 交易的执行有两种接口调用方式：:ref:`调用接口生成`和:ref:`自己生成`
 
-调用接口生成
+.. 调用接口生成
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     **注意**\ ：由于transaction\ *blob很可能被截取和篡改，因此不建议用这种方式生成transaction*\ blob。
@@ -795,7 +795,7 @@ https://github.com/bumoproject/bumo/blob/master/docs/develop.md
     "success_count": 1
     }
 
-自己生成
+.. 自己生成
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 自己生成transaction\_blob、签名，并提交交易，具体操作包括以下步骤：
@@ -843,7 +843,7 @@ buffer的交易对象Transaction，并进行序列化操作，从而得到transa
     "success_count": 1
     }
 
-ProtoBuf数据结构
+.. ProtoBuf数据结构
 ----------------
 
 Protocol Buffers（ProtoBuf）
